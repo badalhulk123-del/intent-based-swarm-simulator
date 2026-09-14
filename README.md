@@ -21,40 +21,6 @@ A **safe, non-weaponized multi-agent swarm simulation** for research, algorithm 
 - Automated tests with `pytest`
 - GitHub Actions CI
 
-## Repository structure
-
-```text
-intent-based-swarm-simulator/
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-├── src/
-│   └── swarm_sim/
-│       ├── __init__.py
-│       ├── allocation.py
-│       ├── config.py
-│       ├── intent.py
-│       ├── metrics.py
-│       ├── models.py
-│       ├── simulation.py
-│       ├── swarm.py
-│       └── visualization.py
-├── tests/
-│   ├── test_allocation.py
-│   ├── test_intent.py
-│   └── test_simulation.py
-├── outputs/
-│   └── .gitkeep
-├── .gitignore
-├── LICENSE
-├── main.py
-├── pyproject.toml
-├── requirements.txt
-├── requirements-dev.txt
-└── README.md
-```
-
-## Run locally
 
 ### 1. Clone
 
@@ -121,7 +87,6 @@ Every push and pull request runs:
 3. A short smoke simulation
 4. Artifact upload of simulation output
 
-GitHub Actions is therefore used for **automated execution/testing**, while GitHub itself remains the source repository.
 
 ## Research extensions
 
