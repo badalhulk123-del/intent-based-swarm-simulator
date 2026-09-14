@@ -1,0 +1,11 @@
+{
+  "steps": 80,
+  "coverage": 0.7,
+  "completed_tasks": 7,
+  "total_tasks": 10,
+  "alive_agents": 6,
+  "failures": 0,
+  "communication_events": 106,
+  "final_average_speed": 2.2431458639690134,
+  "total_distance": 252.43556655445875
+}
